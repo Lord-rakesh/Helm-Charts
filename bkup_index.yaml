@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  spark:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-02T15:20:00.145838777+02:00"
+    description: Apache Spark is a high-performance engine for large-scale computing
+      tasks, such as data processing, machine learning and real-time data streaming.
+      It includes APIs for Java, Python, Scala and R.
+    digest: 6d67eda0bc158a01f486139c93caf5bdb23c23f481eecc5e8018497482afc1ad
+    home: https://github.com/Lord-rakesh/Helm-Charts/tree/main/charts/spark
+    maintainers:
+    - email: rakeshkhanna_1986@yahoo.com
+      name: Lord-rakesh
+    name: spark
+    sources:
+    - https://github.com/Lord-rakesh/docker-spark
+    - https://spark.apache.org/
+    urls:
+    - https://github.com/Lord-rakesh/Helm-Charts/releases/download/spark-0.1.0/spark-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-05-25T06:29:49.772800205Z"
